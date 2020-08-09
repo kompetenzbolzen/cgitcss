@@ -15,11 +15,11 @@
 	--tab-active-bg: #333;
 	--tab-inactive-bg: #222; /*UNUSED*/
 	--age-mins: #0f0;
-  --age-hours: #0a0;
-  --age-days: #050;
-  --age-weeks: #777;
-  --age-months: #666;
-  --age-years: #555;
+	--age-hours: #0a0;
+	--age-days: #050;
+	--age-weeks: #777;
+	--age-months: #666;
+	--age-years: #555;
 	--branch-deco: blue;
 	--tag-deco: blue;
 	--annotated-tag-deco: blue;
