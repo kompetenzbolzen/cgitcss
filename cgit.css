@@ -71,7 +71,7 @@ div#cgit a {
 }
 
 div#cgit a:hover {
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 div#cgit table {
