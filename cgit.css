@@ -53,8 +53,6 @@
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--font-size: 10pt;
-		
 		--bg: black;
 		--text: white;
 		--inactive-text: grey;
