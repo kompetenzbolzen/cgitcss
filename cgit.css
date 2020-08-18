@@ -83,8 +83,8 @@
 		--diff-hunk: blue;
 		--diff-add-bg: #363;
 		--diff-add-bg-dark: #141;
-		--diff-rem-bg: #c44;
-		--diff-rem-bg-dark: #a22;
+		--diff-rem-bg: #a22;
+		--diff-rem-bg-dark: #711;
 		--diff-changed-bg: #886;
 		--diff-changed-bg-dark: #664;
 		--diff-hunk-bg: #33a;
@@ -930,7 +930,7 @@ div#cgit table.ssdiff span.add {
 
 div#cgit table.ssdiff td.del {
 	color: var(--text);
-	background: var(--diff-del-bg);
+	background: var(--diff-rem-bg);
 	min-width: 50%;
 }
 
