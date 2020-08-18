@@ -208,15 +208,15 @@ div#cgit table.list tr.nohover {
 }
 
 div#cgit table.list tr.nohover:hover {
-	background: var(--hover-bg);
+	background: var(--bg);
 }
 
 div#cgit table.list tr.nohover-highlight:hover:nth-child(even) {
-	background: var(--table-bg1);
+	background: var(--bg);
 }
 
 div#cgit table.list tr.nohover-highlight:hover:nth-child(odd) {
-	background: var(--table-bg2);
+	background: var(--bg);
 }
 
 div#cgit table.list th {
