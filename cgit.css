@@ -51,6 +51,55 @@
 	--stats-sum: #c00;
 }
 
+@media (prefers-color-scheme: dark) {
+	:root {
+		--font-size: 10pt;
+		
+		--bg: black;
+		--text: white;
+		--inactive-text: grey;
+		--accent-color: green;
+		--hover-bg: #444;
+		--border: #aaa;
+		--table-bg1: #000;
+		--table-bg2: #111;
+		--highlight-bg: #333;
+		
+		--age-mins: #080;
+		--age-hours: #080;
+		--age-days: #040;
+		--age-weeks: #444;
+		--age-months: #8886;
+		--age-years: #bbb;
+		
+		--branch-deco: #080;
+		--tag-deco: #880;
+		--annotated-tag-deco: #860;
+		--remote-deco: #008;
+		--deco: #800;
+		
+		--diff-add: green;
+		--diff-rem: red;
+		--diff-hunk: blue;
+		--diff-add-bg: #363;
+		--diff-add-bg-dark: #141;
+		--diff-rem-bg: #c44;
+		--diff-rem-bg-dark: #a22;
+		--diff-changed-bg: #886;
+		--diff-changed-bg-dark: #664;
+		--diff-hunk-bg: #33a;
+		
+		--vgraph-col1: #a00;
+		--vgraph-col2: #0a0;
+		--vgraph-col3: #aa0;
+		--vgraph-col4: #00a;
+		--vgraph-col5: #a0a;
+		--vgraph-col6: #0aa;
+	
+		--stats-sum: #c00;
+	}
+}
+
 body{
 	background: var(--bg);
 }
