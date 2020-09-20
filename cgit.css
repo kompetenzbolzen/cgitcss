@@ -253,11 +253,11 @@ div#cgit table.list tr.nohover:hover {
 }
 
 div#cgit table.list tr.nohover-highlight:hover:nth-child(even) {
-	background: var(--bg);
+	background: var(--table-bg1);
 }
 
 div#cgit table.list tr.nohover-highlight:hover:nth-child(odd) {
-	background: var(--bg);
+	background: var(--table-bg2);
 }
 
 div#cgit table.list th {
